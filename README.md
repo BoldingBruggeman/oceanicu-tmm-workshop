@@ -17,7 +17,7 @@ This does *not* require administrator or root permissions.
 
    If you *do not* have Anaconda, install Miniconda on [Linux](https://conda.io/projects/conda/en/stable/user-guide/install/linux.html), [Windows](https://conda.io/projects/conda/en/stable/user-guide/install/windows.html), or [Mac](https://conda.io/projects/conda/en/stable/user-guide/install/macos.html).
 
-2. Create an isolated `oceanicu` environment with the model and visualization tools:
+2. Create an isolated `fabmos` environment with the model and visualization tools:
     ```
     conda create -n fabmos -c bolding-bruggeman -c conda-forge fabmos
     ```
