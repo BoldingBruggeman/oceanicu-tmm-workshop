@@ -34,6 +34,12 @@ Instructions below are for reference during and after the workshop only.
 
 ## Install FABM configurations and TMM run-scripts
 
+The installed version of FABMOS contains a limited number of bio-geochemical models. FABM configurations for OceanICU relevant bio-geochemical models can be downloaded [here].
+
+TMM run-scripts for the 3 bio-geochemical models can be downloaded [here].
+
+Please save the fabm.yaml files and the run-scripts ......
+
 ## Running TMM
 
 1. Every time you open a terminal window, activate the `fabmos` environment:
