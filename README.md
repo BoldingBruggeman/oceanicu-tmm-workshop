@@ -32,6 +32,8 @@ A number of different TMM configurations have been made available by Samar Khati
 If the above has succeeded, you are ready for the workshop.
 Instructions below are for reference during and after the workshop only.
 
+## Install FABM configurations and TMM run-scripts
+
 ## Running TMM
 
 1. Every time you open a terminal window, activate the `fabmos` environment:
