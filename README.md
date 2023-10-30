@@ -31,8 +31,7 @@ This does *not* require administrator or root permissions.
 
 A number of different TMM configurations have been made available by Samar Khatiwala [here](http://kelvin.earth.ox.ac.uk/spk/Research/TMM/TransportMatrixConfigs/). For this workshop we suggest to use the MITgcm_2.8deg configuration. Download and un-tar the configuration and record the folder as it will be used later.
 
-If the above has succeeded, you are ready for the workshop.
-Instructions below are for reference during and after the workshop only.
+
 
 ## Install FABM configurations and TMM run-scripts
 
@@ -40,6 +39,8 @@ The installed version of FABMOS contains a limited number of bio-geochemical mod
 
 Please download and unzip the file - and record where it has been un-zipped.
 
+If the above has succeeded, you are ready for the workshop.
+Instructions below are for reference during and after the workshop only.
 
 ## Running TMM
 
