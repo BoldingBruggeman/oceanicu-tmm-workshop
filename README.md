@@ -65,3 +65,8 @@ The TMM implementation uses domain decomposition to split the workload between t
 
 When the program finishes a NetCDF formatted output file have been created and can be viewed by a number of different visualization tools - e.g. pyncview.
 
+pyncview can be installed by:
+```
+pip install pyncview
+```
+in the fabmos environment.
