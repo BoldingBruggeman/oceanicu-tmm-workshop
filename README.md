@@ -34,18 +34,17 @@ Instructions below are for reference during and after the workshop only.
 
 ## Install FABM configurations and TMM run-scripts
 
-The installed version of FABMOS contains a limited number of bio-geochemical models. FABM configurations for OceanICU relevant bio-geochemical models can be downloaded [here].
+The installed version of FABMOS contains a limited number of bio-geochemical models. This [zip-fil](tmm_workshop.zip) contains the necessary FABM configuration files and FABMOS(TMM) run-scripts. 
 
-TMM run-scripts for the 3 bio-geochemical models can be downloaded [here].
+Please download and unzip the file - and record where it has been un-zipped.
 
-Please save the fabm.yaml files and the run-scripts ......
 
 ## Running TMM
 
-1. Every time you open a terminal window, activate the `fabmos` environment:
-   ```
-   conda activate fabmos
-   ```
+Every time you open a terminal window, activate the `fabmos` environment:
+```
+conda activate fabmos
+```
 Change folder to where the TMM configuration was un-packed - e.g.:
 ```
 cd /data/kb/OceanICU/MITgcm_2.8deg
@@ -53,9 +52,9 @@ cd /data/kb/OceanICU/MITgcm_2.8deg
  
 The TMM code is prepared for parallel operation - i.e. utilize a number of cores available on the computer system. This is achieved by using the Message Passing Interface (MPI) standard. Operating MPI enabled programs has a slight different syntax as shown in the example below:
 
-    ```
-    mpiexec -n 10 python ~/source/repos/FABM/fabmos/examples/tmm/MOPS.py
-    ```
+```
+mpiexec -n 10 python ~/OceanICU/TMM-workshop/examples/tmm/MOPS.py
+```
     
 This will run the TMM configuration from the Python script MOPS.py on 10 processes in parallel.
 
