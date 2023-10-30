@@ -19,7 +19,7 @@ This does *not* require administrator or root permissions.
 
 2. Create an isolated `oceanicu` environment with the model and visualization tools:
     ```
-    conda create -n oceanicu -c bolding-bruggeman -c conda-forge oceanicu
+    conda create -n fabmos -c bolding-bruggeman -c conda-forge fabmos
     ```
     If you experience any issue with the above, we recommend you first execute `conda update conda` to ensure your conda is up to date.
     Should this fail because of lack of permissions, we recommend you install Miniconda as described under the previous option. After
