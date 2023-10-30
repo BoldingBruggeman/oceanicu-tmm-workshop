@@ -1,5 +1,7 @@
 # OceanICU Transport Matrix Method (TMM) workshop
 
+This page might be edited until the time of the workshop - but do now (October 30th) contain all necessary information to be done before the workshop.
+
 The purpose of this workshop is be able to operate the TMM code implemented in OceanICU. Before the workshop a few tasks will have to be done by each participant. During the workshop the aim is that all participants will be able to run a TMM simulation on 'private' hardware - i.e. personal laptop/workstation or HPC-system.
 
 For this workshop, we will work in a terminal window while installing necessary files and running TMM. This looks different on different platforms:
