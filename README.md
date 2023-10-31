@@ -5,7 +5,7 @@ At present (31 October) these instructions have been confirmed to work on at lea
 
 The purpose of the workshop is be able to operate the TMM implementation developed within [OceanICU](https://ocean-icu.eu/).
 It will be possible to use a variety of biogeochemical models, including [MOPS](https://doi.org/10.5194/gmd-8-2929-2015), [ERSEM](http://ersem.com), [PISCES](https://www.pisces-community.org/).
-While we visualize some selected results, this workshop is not aimed at in-depth result evaluation or validation.
+While we will visualize selected results, this workshop is not aimed at in-depth result evaluation or validation.
 
 The aim is that all participants will be able to run a TMM simulation on "private" hardware - i.e. a personal laptop/workstation or HPC-system.
 To make this possible, a few tasks will have to be done by each participant before the workshop starts.
