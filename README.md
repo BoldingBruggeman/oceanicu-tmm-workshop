@@ -37,7 +37,7 @@ A number of different TMM configurations have been made available by Samar Khati
 
 ## 3. Install FABM configurations and TMM run-scripts
 
-The installed version of FABMOS contains a limited number of bio-geochemical models. This [zip-fil](tmm_workshop.zip) contains the necessary FABM configuration files and FABMOS(TMM) run-scripts. 
+The installed version of FABMOS contains a limited number of bio-geochemical models. This [zip-fil](https://github.com/BoldingBruggeman/oceanicu-tmm-workshop/raw/main/tmm_workshop.zip) contains the necessary FABM configuration files and FABMOS(TMM) run-scripts. 
 
 Please download and unzip the file - and record where it has been un-zipped.
 
