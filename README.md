@@ -23,7 +23,7 @@ This does *not* require administrator or root permissions.
 
 2. Create an isolated `fabmos` environment with the model and visualization tools:
     ```
-    conda create -n fabmos -c bolding-bruggeman -c conda-forge fabmos
+    conda create -n fabmos -c bolding-bruggeman -c conda-forge fabmos oceanicu
     ```
     If you experience any issue with the above, we recommend you first execute `conda update conda` to ensure your conda is up to date.
     Should this fail because of lack of permissions, we recommend you install Miniconda as described under the previous option. After
@@ -65,10 +65,4 @@ This will run the TMM configuration from the Python script MOPS.py on 10 process
 
 The TMM implementation uses domain decomposition to split the workload between the available resources.
 
-When the program finishes a NetCDF formatted output file have been created and can be viewed by a number of different visualization tools - e.g. pyncview.
-
-pyncview can be installed by:
-```
-pip install pyncview
-```
-in the fabmos environment.
+When the program finishes a NetCDF formatted output file have been created and can be viewed by a number of different visualization tools - e.g. pyncview - that should be available as part of the installation done in 1.2.
