@@ -1,15 +1,17 @@
 # OceanICU Transport Matrix Method (TMM) workshop
 
-This page might be edited until the time of the workshop - but do now (October 30th) contain all necessary information to be done before the workshop.
+This page might be edited until the time of the workshop - but do now (October 31th) contain all necessary information to be done before the workshop.
 
-The purpose of this workshop is be able to operate the TMM code implemented in OceanICU. Before the workshop a few tasks will have to be done by each participant. During the workshop the aim is that all participants will be able to run a TMM simulation on 'private' hardware - i.e. personal laptop/workstation or HPC-system.
+The purpose of this workshop is be able to operate the TMM code implemented in OceanICU. It is not an in-depth evaluation of the actual results using the different bio-geochemical models.
+
+Before the workshop a few tasks will have to be done by each participant. During the workshop the aim is that all participants will be able to run a TMM simulation on 'private' hardware - i.e. personal laptop/workstation or HPC-system.
 
 For this workshop, we will work in a terminal window while installing necessary files and running TMM. This looks different on different platforms:
 * On Windows, use the "Anaconda prompt" from the start menu (instructions on how to install that below).
 
 We will be editing text files with model configurations. This can be done with many different editors, e.g., [Visual Studio Code](https://code.visualstudio.com/), Notepad on Windows, `vi` on Linux/Mac. We recommend using one you are already familiar with.
 
-## Install TMM software
+## 1. Install TMM software
 
 This does *not* require administrator or root permissions.
 
@@ -27,13 +29,13 @@ This does *not* require administrator or root permissions.
     Should this fail because of lack of permissions, we recommend you install Miniconda as described under the previous option. After
     you have an up-to-date conda, retry the `conda create ...` command.
 
-## Install TMM configurations
+## 2. Install TMM configurations
 
 A number of different TMM configurations have been made available by Samar Khatiwala [here](http://kelvin.earth.ox.ac.uk/spk/Research/TMM/TransportMatrixConfigs/). For this workshop we suggest to use the MITgcm_2.8deg configuration. Download and un-tar the configuration and record the folder as it will be used later.
 
 
 
-## Install FABM configurations and TMM run-scripts
+## 3. Install FABM configurations and TMM run-scripts
 
 The installed version of FABMOS contains a limited number of bio-geochemical models. This [zip-fil](tmm_workshop.zip) contains the necessary FABM configuration files and FABMOS(TMM) run-scripts. 
 
@@ -42,7 +44,7 @@ Please download and unzip the file - and record where it has been un-zipped.
 If the above has succeeded, you are ready for the workshop.
 Instructions below are for reference during and after the workshop only.
 
-## Running TMM
+## 4. Running TMM
 
 Every time you open a terminal window, activate the `fabmos` environment:
 ```
