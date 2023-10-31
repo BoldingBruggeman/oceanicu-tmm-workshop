@@ -13,7 +13,7 @@ To make this possible, a few tasks will have to be done by each participant befo
 We will work in a terminal window while installing necessary files and running TMM. This looks different on different platforms:
 * On Windows, use the "Anaconda prompt" from the start menu (instructions on how to install that below).
 
-We will be editing Pyhton scripts files with model configurations. This can be done with many different editors, e.g., [Visual Studio Code](https://code.visualstudio.com/), Notepad on Windows, `vi` on Linux/Mac. We recommend using one you are already familiar with.
+We will be editing Python scripts files with model configurations. This can be done with many different editors, e.g., [Visual Studio Code](https://code.visualstudio.com/), Notepad on Windows, `vi` on Linux/Mac. We recommend using one you are already familiar with.
 
 ## 1. Install TMM software
 
