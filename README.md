@@ -1,7 +1,8 @@
 # OceanICU Transport Matrix Method (TMM) workshop
 
 *This page may be still edited until the time of the workshop in response to participant feedback.*
-At present (31 October) these instructions have been confirmed to work on at least some Windows, Linux and Mac systems.
+At present (1 November) these instructions have been confirmed to work on Windows, Linux, Intel-based Macs, and ARM-based Macs (M1, M2).
+Nevertheless, each system is different and your experience may differ. If you experience problems, please get in touch.
 
 The purpose of the workshop is be able to operate the TMM implementation developed within [OceanICU](https://ocean-icu.eu/).
 It will be possible to use a variety of biogeochemical models, including [MOPS](https://doi.org/10.5194/gmd-8-2929-2015), [ERSEM](http://ersem.com), [PISCES](https://www.pisces-community.org/).
