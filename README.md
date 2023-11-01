@@ -63,11 +63,11 @@ cd /data/kb/OceanICU/MITgcm_2.8deg
 The TMM code is prepared for parallel operation - i.e. utilize a number of cores available on the computer system. This is achieved by using the Message Passing Interface (MPI) standard. Operating MPI enabled programs has a slight different syntax as shown in the example below:
 
 ```
-mpiexec -n 10 python ~/OceanICU/TMM-workshop/examples/tmm/MOPS.py
+mpiexec -n 4 python ~/OceanICU/TMM-workshop/examples/tmm/MOPS.py
 ```
     
-This will run the TMM configuration from the Python script MOPS.py on 10 processes in parallel.
+This will run the TMM configuration from the Python script MOPS.py on 4 processes in parallel.
 
 The TMM implementation uses domain decomposition to split the workload between the available resources.
 
-When the program finishes a NetCDF formatted output file have been created and can be viewed by a number of different visualization tools - e.g. pyncview - that should be available as part of the installation done in 1.2.
+When the program finishes a NetCDF formatted output file have been created and can be viewed by a number of different visualization tools. For instance, PyNcView, which has been installed as part of 1.2.
