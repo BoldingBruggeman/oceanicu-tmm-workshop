@@ -1,6 +1,5 @@
 # OceanICU Transport Matrix Method (TMM) workshop
 
-*This page may be still edited until the time of the workshop in response to participant feedback.*
 At present (1 November) these instructions have been confirmed to work on Windows, Linux, Intel-based Macs, and ARM-based Macs (M1, M2).
 Nevertheless, each system is different and your experience may differ. If you experience problems, please get in touch.
 
